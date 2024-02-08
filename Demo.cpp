@@ -13,7 +13,7 @@ int main()
     switch (choice) 
 	{
     	case 1: 
-				{
+		{
 	                int b;  
 	                cout<<"****ASCENDING ORDER****"<<endl;
 	                cout << "Enter SIZE: ";
@@ -23,15 +23,15 @@ int main()
             	}
             case 2:
             	{	
-					int b;  
+			int b;  
 	                cout<<"****DESENDING ORDER****"<<endl;
 	                cout<<"Enter SIZE: ";
 	                cin >> b;
 	                Desending(b);
             		break;
-				}
+		}
             case 3: 
-				{
+		{
 	                int b;  
 	                cout<<"****REVERSE ORDER****"<<endl;
 	                cout << "Enter SIZE: ";
@@ -40,10 +40,10 @@ int main()
 	                break;
             	}
             default: 
-				{
+		{
 	                cout << "ERROR 303  WRONG INPUT";
 	                break;
-	            }
+		}
 	}
     return 0;
 }
