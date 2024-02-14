@@ -12,7 +12,7 @@ void add2mat(int m, int n)
 {
 	int mat1[m][n], mat2[m][n], mat3[m][n];
 	// Input 1st matrix
-	cout<<"Enter Elements òf 1st MATRIX: "<<endl;
+	cout<<"Enter Elements Ã²f 1st MATRIX: "<<endl;
 	for (int i = 0; i < m; i++)
 	{
 		for (int j = 0; j < n; j++)
@@ -21,7 +21,7 @@ void add2mat(int m, int n)
 		}
 	}
 	// Input 2nd matrix
-	cout<<"Enter Elements òf 2nd MATRIX: "<<endl;
+	cout<<"Enter Elements Ã²f 2nd MATRIX: "<<endl;
 	for (int i = 0; i < m; i++)
 	{
 		for (int j = 0; j < n; j++)
@@ -54,7 +54,7 @@ void add3mat(int m, int n)
 {
 	int mat1[m][n], mat2[m][n], mat3[m][n], mat4[m][n];
 	// Input 1st matrix
-	cout<<"Enter Elements òf 1st MATRIX: "<<endl;
+	cout<<"Enter Elements Ã²f 1st MATRIX: "<<endl;
 	for (int i = 0; i < m; i++)
 	{
 		for (int j = 0; j < n; j++)
@@ -63,7 +63,7 @@ void add3mat(int m, int n)
 		}
 	}
 	// Input 2nd matrix
-	cout<<"Enter Elements òf 2nd MATRIX: "<<endl;
+	cout<<"Enter Elements Ã²f 2nd MATRIX: "<<endl;
 	for (int i = 0; i < m; i++)
 	{
 		for (int j = 0; j < n; j++)
@@ -72,7 +72,7 @@ void add3mat(int m, int n)
 		}
 	}
 	// Input 3rd matrix
-	cout<<"Enter Elements òf 3rd MATRIX: "<<endl;
+	cout<<"Enter Elements Ã²f 3rd MATRIX: "<<endl;
 	for (int i = 0; i < m; i++)
 	{
 		for (int j = 0; j < n; j++)
@@ -102,7 +102,7 @@ void add3mat(int m, int n)
 }
 // 3.Transpose **************************************************************
 /*
-	11 	12  13   11  21  31
+	11  12  13   11  21  31
 	21  22  23 = 12  22  32 
 	31  32  33   13  23  33
 */
